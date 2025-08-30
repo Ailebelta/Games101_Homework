@@ -16,6 +16,7 @@ class Renderer
 {
 public:
     void Render(const Scene& scene);
+    void Render_MultiThreading(const Scene& scene);
 
 private:
 };
